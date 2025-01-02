@@ -1,0 +1,23 @@
+.zoom-in {
+    animation: zoomIn 1.5s ease-in-out;
+    font-size: 2.5rem; /* Adjust as needed */
+    margin: 0;
+    color: #ffffff; /* Text color */
+    
+  }
+
+  @keyframes zoomIn {
+    0% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+
+
+
+  
