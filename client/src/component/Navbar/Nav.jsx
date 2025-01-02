@@ -60,7 +60,7 @@ export default function Nav() {
       <NavbarContent >
         <NavbarBrand>
           <a href="/">
-          <p className="font-bold text-xl text-inherit ml-2">RegiSphere</p>
+          <p className="font-bold text-xl text-inherit md:ml-2">RegiSphere</p>
           </a>
         </NavbarBrand>
       </NavbarContent>
@@ -135,7 +135,57 @@ export default function Nav() {
       </NavbarContent>
 
       {/* Login and Sign Up at the End */}
-      <NavbarContent justify="end">
+      <NavbarContent justify="end" className="mr-4">
+        <div className="block sm:hidden mr-0">
+          <Dropdown>
+            <NavbarItem>
+              <DropdownTrigger>
+                <Button
+                  disableRipple
+                  className="p-0 bg-transparent data-[hover=true]:bg-transparent"
+                  endContent={icons.chevron}
+                  variant="light"
+                >
+                  <span className="text-base"> Services</span>
+                </Button>
+              </DropdownTrigger>
+            </NavbarItem>
+            <DropdownMenu
+              aria-label="ACME features"
+              className="w-[340px]"
+              itemClasses={{
+                base: "gap-4",
+              }}
+            >
+              <DropdownItem
+                href="/studentList"
+                key="autoscaling"
+                description="Admin can view and modify available students"
+                startContent={icons.scale}
+              >
+                <Link color="foreground">Student List</Link>
+              </DropdownItem>
+
+              <DropdownItem
+                href="/courseType"
+                key="usage_metrics"
+                description="the creation, updating, and deletion of course types"
+                startContent={icons.activity}
+              >
+                <Link color="foreground">Course Type</Link>
+              </DropdownItem>
+              
+              <DropdownItem
+                href="/courses"
+                key="usage_metrics"
+                description="Suggests a streamlined process for academic course"
+                startContent={icons.activity}
+              >
+                <Link color="foreground">Courses List</Link>
+              </DropdownItem>
+            </DropdownMenu>
+          </Dropdown>
+        </div>
         <NavbarItem>
           <Link href="/adminLogin" color="foreground">
             <Button color="primary" variant="flat">
@@ -143,13 +193,12 @@ export default function Nav() {
             </Button>
           </Link>
         </NavbarItem>
-        <NavbarItem>
+        <NavbarItem className="hidden sm:block md:hidden lg:block">
           <Link href="#" color="foreground">
             <Button color="danger" variant="flat">
                 Logout
             </Button>
           </Link>
-
         </NavbarItem>
       </NavbarContent>
     </Navbar>
