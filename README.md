@@ -164,9 +164,13 @@ A simple and intuitive **Student Registration System** built using **React** to 
 
 <hr/>
 
+https://github.com/user-attachments/assets/ff612354-b1e2-49b3-bd3b-bc4d1d7eafde
 
-  ## - 🔭 Projects Link: [RegiSphare](https://regisphare.netlify.app/)
+<hr />
 
+ ## - 🔭 Projects Link: [RegiSphare](https://regisphare.netlify.app/)
+
+<hr/>
 
 <div align="center"> 
   <a href="https://mernportfoliovikash.netlify.app/contact">
