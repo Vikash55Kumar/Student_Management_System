@@ -15,9 +15,11 @@ A simple and intuitive **Student Registration System** built using **React** to 
 
 - **📊 Purpose:** Efficiently manage student registrations for academic courses.
 
-- **📊 Tech Stack:** React, Node.js, Express.js, MongoDB
+- **📊 Tech Stack:** React.js, JavaScript, TailwindCss, NextUi, Bootstrap
 
 </p>
+
+![f1](https://github.com/user-attachments/assets/aa702892-d61f-4897-a882-93a864592d01)
 
 <hr/>
 
@@ -33,25 +35,34 @@ A simple and intuitive **Student Registration System** built using **React** to 
 - Update the names of existing course types.
 - Delete course types when no longer needed.
 
+![ctype](https://github.com/user-attachments/assets/0bd23f90-0e02-49c9-bfea-2e688bd065e9)
+
 ### **📊 Courses:**
 - Create new courses (e.g., Hindi, English, Urdu).
 - List all available courses.
 - Update the names of existing courses.
 - Delete courses when required.
 
+![clist](https://github.com/user-attachments/assets/497114b0-bcbb-40df-85e1-8bb1cf1d003a)
 
 ### **📊 Student Registrations:**
 - Allow students to register for available course offerings.
 - View a list of registered students for specific course offerings.
 - Implement a filter to display available course offerings based on the selected course type.
 
+![slist](https://github.com/user-attachments/assets/9318fa40-481b-4942-8d24-92aba80ae62c)
+
 ### **📊 Filters and Validation:** 
 - Implement filters to show offerings by course type and ensure data validation for smooth operation.
+
+![merge2](https://github.com/user-attachments/assets/1ff1f443-8925-4f4f-91cb-40c35380bce9) 
   
 ### **📊 Responsive Design:** 
 - Ensure compatibility across devices for a seamless user experience.
 
 </p>
+
+![merge](https://github.com/user-attachments/assets/d4666e8b-67d4-4624-9e8d-1a192905297b)
 
 <hr/>
 
@@ -89,6 +100,8 @@ A simple and intuitive **Student Registration System** built using **React** to 
 - **📊 Registration Flow:** Students can browse and register for available course offerings seamlessly.
 
 - **📊 Admin Features:** Admins can monitor, update, and delete courses and offerings with ease.
+
+![ctype](https://github.com/user-attachments/assets/39237959-0cd5-4a88-9d04-0222638c6e51)
 
 </p>
 
