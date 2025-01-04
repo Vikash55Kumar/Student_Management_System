@@ -32,10 +32,6 @@ function App() {
           <Nav/>
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* <Route path="/progress" element={<Progress />} />
-            <Route path="/dashboard/student" element={isAuthenticated && userType === "student" ? <StudentDashboard student={student?.data} /> : <StudentLogin /> } />
-            <Route path="/dashboard/teacher" element={isAuthenticated && userType === "teacher" ? <TeacherDashboard teacher={teacher?.data} section={section?.data} assignment={assignment?.data} studentWork={studentWork?.data} /> : <TeacherLogin /> } />
-            <Route path="/dashboard/admin" element={isAuthenticated && userType === "teacher" ? <AdminDashboard /> : <AdminLogin />} /> */}
             <Route path="/userLogin" element={<UserLogin />} />
             <Route path="/userSignup" element={<UserSignup />} />
             <Route path="/adminLogin" element={<AdminLogin />} />
@@ -43,12 +39,6 @@ function App() {
             <Route path="/courseType" element={<CourseType />} />
             <Route path="/studentList" element={<StudentList />} />
             <Route path="/h1" element={<H1 />} />
-
-            {/* <Route path="/teacher/login" element={<TeacherLogin />} /> */}
-            {/* <Route path="/teacher/signup" element={<TeacherSingUp />} />  */}
-
-            {/* <Route path="/createAssignment" element={<CreateAssignment />} /> */}
-
           </Routes>
           <Foot />
       </Router>
