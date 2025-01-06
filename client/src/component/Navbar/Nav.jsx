@@ -110,7 +110,7 @@ export default function Nav() {
               description="the creation, updating, and deletion of course types "
               startContent={icons.activity}
             >
-              <Link  color="foreground">
+              <Link href="/courseType" color="foreground">
                 Course Type
               </Link>
             </DropdownItem>            
